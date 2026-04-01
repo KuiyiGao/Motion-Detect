@@ -9,6 +9,7 @@ provide a quick insight for autonomous systems on "where to focus" within the fi
 - Performance: weighted cross entropy loss and IoU scores for training, optimal loss of 0.75 and optimal IoU of 0.6, realized a 58 FPS inference speed on NVIDIA GTX4090, proven potential to
 - deploy on computing devices such as NVIDIA Jetson Nano
 ## 💻Project Structure
+```
 .
 ├── dataset/
 │   ├── train/          # COCO-Stuff images/annotations
@@ -20,7 +21,8 @@ provide a quick insight for autonomous systems on "where to focus" within the fi
 │   ├── train.py        # Training & validation loop
 │   └── create_lut.py   # Mapping logic from COCO labels to Momentum
 └── README.md
+```
 
-## Youtube Demo: https://www.youtube.com/watch?v=oluNSNQs7zY
+Youtube Demo: https://www.youtube.com/watch?v=oluNSNQs7zY
 ## Acknowledgement: 
 Thanks for the amazing lectures by Prof. Hongsheng Li and the help provided by his Ph.D students.
